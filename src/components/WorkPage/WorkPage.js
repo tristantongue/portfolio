@@ -37,7 +37,7 @@ function WorkPage() {
                 <WorkCard
                     title={"My Portfolio Website"}
                     caption={"A fully responsive single page React application that harnesses GSAP and React Hooks for event and scroll triggered animations. Includes custom animated SVG."}
-                    link={"VIEW REPOSITORY"}>
+                    link={<a href="https://github.com/tristantongue/portfolio/tree/master/src">VIEW REPOSITORY</a>}>
                     
                 </WorkCard>
                 <WorkCard

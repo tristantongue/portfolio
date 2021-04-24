@@ -44,12 +44,18 @@
 }
 
 .cardLink p {
+    margin: 0px;
+}
+
+.cardLink p a {
     margin-top: 5px;
     margin-bottom: 0px;
     color: #EE4266;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.cardLink p:hover {
+
+.cardLink p a:hover {
     color:black;
 }
