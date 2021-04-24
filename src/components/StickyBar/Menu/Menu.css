@@ -1,0 +1,60 @@
+#burger {
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 50%;
+    min-width: 40px;
+    height: 40px;
+    grid-column: 3;
+    margin: auto;
+    position: relative;
+    display: block;
+    border: none;
+    outline: none;
+    padding: 0px;
+    cursor: pointer;
+}
+
+#burger .first, #burger .second, #burger .third {
+    position: absolute;
+    left: 0;
+}
+
+
+#burger .first {
+    top: 0;
+}
+
+#burger .second {
+    top: 50%;
+    margin-top: -1px;
+}
+
+#burger .third {
+    bottom: 0;
+}
+
+#burger span {
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #3CBBB1;
+    border-radius: 1px;
+}
+
+#burger:hover span {
+    animation: fade-colors 2.5s ease-in infinite alternate;
+}
+
+@keyframes fade-colors {
+    0% {
+        background-color: #C4CBCA;
+    }
+    25% {
+        background-color: #2A1E5C;
+    }
+    75% {
+        background-color: #3CBBB1;
+    }
+    100% {
+        background-color: #EE4266;
+    }
+}

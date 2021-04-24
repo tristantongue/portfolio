@@ -1,0 +1,67 @@
+.menuPageContainer {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.firstColor {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #EE4266;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation: slide-color 1s ease forwards;
+    animation: slide-color 1s ease forwards;
+    z-index: 50;
+}
+
+.secondColor {
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #2A1E5C;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation: slide-color 1s ease forwards .2s;
+    animation: slide-color 1s ease forwards .2s;
+    z-index: 50;
+}
+
+.thirdColor {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: #3CBBB1;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-animation: slide-color 1s ease forwards .4s;
+    animation: slide-color 1s ease forwards .4s;
+    z-index: 50;
+}
+
+
+@-webkit-keyframes slide-color {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
+@keyframes slide-color {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+

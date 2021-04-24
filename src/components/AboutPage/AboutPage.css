@@ -1,0 +1,59 @@
+#aboutContainer {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 10vh 80vh 10vh;
+    overflow: hidden;
+}
+
+
+.graphicImage-about {
+    grid-row: 2;
+    grid-column: 1 / span 3;
+    position: relative;
+    max-width: 250px;
+    top: 55%;
+    left: 60%;
+    transform: scale(1,1);
+}
+
+.blurbContainer {
+    text-align: left;
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 50%;
+    left: 0%;
+    line-height: 2em;
+}
+
+.blurbContainer h2 {
+    color: #3CBBB1;
+}
+
+@media screen and (max-width: 600px) {
+    #aboutContainer {
+        grid-template-columns: 5% 90% 5%;
+    }
+    .blurbContainer {
+        line-height: 1.3em;
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .blurbContainer {
+        line-height: 1.6em;
+        max-width: 70%;
+    }
+}
+
+
+/* @media screen and (max-width: 900px) {
+    #aboutContainer {
+        grid-template-columns: 10% 80% 10%;
+    }
+    .blurbContainer {
+        line-height: 1.6em;
+        max-width: 70%;
+    }
+} */

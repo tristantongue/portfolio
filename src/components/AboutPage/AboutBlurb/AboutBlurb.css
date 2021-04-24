@@ -1,0 +1,32 @@
+.blurbContainer {
+    text-align: left;
+    position: relative;
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 50%;
+    left: 0%;
+    line-height: 1.5em;
+    transform: translateX(-150%);
+    animation: blurb-slide 1s ease forwards 3s;
+}
+
+.blurbContainer h2 {
+    color: #3CBBB1;
+}
+
+@keyframes blurb-slide {
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blurbContainer {
+        max-width: 100%;
+        left: auto;
+        text-align: left;
+    }
+}

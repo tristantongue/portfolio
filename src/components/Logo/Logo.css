@@ -1,0 +1,48 @@
+#logo path:nth-child(1){
+   stroke-dasharray: 629.8992919921875;
+   stroke-dashoffset: 629.8992919921875;
+   -webkit-animation: line-anim 1s linear forwards;
+   animation: line-anim 1s linear forwards;
+}
+
+#logo path:nth-child(2){
+  stroke-dasharray: 629.899169921875;
+  stroke-dashoffset: 629.899169921875;
+  -webkit-animation: line-anim 1s linear forwards .3s;
+  animation: line-anim 1s linear forwards .3s;
+}
+
+#logo {
+    -webkit-animation: shrink 1s ease-in forwards 1.3s;
+    animation: shrink 1s ease-in forwards 1.3s;
+}
+
+@-webkit-keyframes line-anim {
+    to {
+        stroke-dashoffset: 0%;
+    }
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0%;
+    }
+}
+
+@-webkit-keyframes shrink {
+    from {
+        -webkit-transform: scale(1,1);
+    }
+    to {
+        -webkit-transform: scale(0,0);
+    }
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1,1);
+    }
+    to {
+        transform: scale(0,0);
+    }
+}

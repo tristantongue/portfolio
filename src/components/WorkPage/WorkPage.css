@@ -1,0 +1,26 @@
+#workContainer {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 10% 80% 10%;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.workHeader {
+    grid-row: 2;
+    grid-column: 2;
+    display: block;
+    height: fit-content;
+}
+
+.workHeader h2 {
+    color: #EE4266;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #workContainer {
+        grid-template-columns: 5% 90% 5%;
+    }
+}

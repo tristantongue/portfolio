@@ -1,0 +1,19 @@
+#sticky {
+    position: fixed;
+    padding-top: 15px;
+    height: 10vh;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    background-color:rgba(0, 0, 0, 0);
+    z-index: 999;
+}
+
+@media screen and (max-width: 600px) {
+    #sticky {
+        padding-top: 0px;
+        grid-template-columns: 15vw 70vw 15vw;
+    }
+  }
