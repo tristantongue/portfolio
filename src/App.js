@@ -9,6 +9,7 @@ import WorkPage from "./components/WorkPage/WorkPage.js";
 import ContactPage from "./components/ContactPage/ContactPage.js";
 
 
+
 function App() {
   const [menu, setMenu] = useState(false)
   const [home, setHome] = useState(false)

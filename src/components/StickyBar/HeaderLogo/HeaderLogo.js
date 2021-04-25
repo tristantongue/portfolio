@@ -1,13 +1,13 @@
 import React, {useRef, useEffect} from 'react';
 import './HeaderLogo.css'
 import { gsap} from 'gsap';
-
-
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 function HeaderLogo(props) {
     let firsticon = useRef(null);
     let secondicon = useRef(null);
     useEffect(() => {
+        ScrollTrigger.refresh()
         gsap.fromTo(firsticon,
             {
                 stroke: '#3CBBB1',
