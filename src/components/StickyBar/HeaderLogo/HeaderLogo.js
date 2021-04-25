@@ -18,9 +18,9 @@ function HeaderLogo(props) {
                 //scroller: ".mother",
                 start: "top center",
                 end: "top top",
-                scrub: 2,
+                // scrub: 2,
                 duration: 2,
-                delay: 1,
+                // delay: 1,
             }
             })
     }, []);
@@ -35,9 +35,9 @@ function HeaderLogo(props) {
                 //scroller: ".mother",
                 start: "top center",
                 end: "top top",
-                scrub: 2,
+                // scrub: 2,
                 duration: 2,
-                delay: 1,
+                // delay: 1,
             }
             })
     }, []);
