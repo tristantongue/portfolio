@@ -38,6 +38,10 @@
         line-height: 1.3em;
         max-width: 70%;
     }
+    .graphicImage-about {
+        left: 40%;
+        top: 75%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -48,12 +52,3 @@
 }
 
 
-/* @media screen and (max-width: 900px) {
-    #aboutContainer {
-        grid-template-columns: 10% 80% 10%;
-    }
-    .blurbContainer {
-        line-height: 1.6em;
-        max-width: 70%;
-    }
-} */

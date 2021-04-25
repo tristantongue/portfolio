@@ -33,7 +33,7 @@ function WorkPage() {
         <div id="workContainer">
             {/* <div className="centralLogoA"><Logo></Logo></div> */}
             <div ref={el => {workchunk=el}} className="workHeader">
-                <h2>PROJECTS</h2>
+                <h2>- PROJECTS -</h2>
                 <WorkCard
                     title={"My Portfolio Website"}
                     caption={"A fully responsive single page React application that harnesses GSAP and React Hooks for event and scroll triggered animations. Includes custom animated SVG."}
@@ -43,7 +43,7 @@ function WorkPage() {
                 <WorkCard
                     title={"Kickstart Coding"}
                     caption={"An intensive full-stack web development bootcamp covering HTML/CSS fundamentals, Django, PostgreSQL, and React. Developed and deployed multiple web apps as unit projects. "}
-                    link={<a href="https://limitless-bastion-55301.herokuapp.com" target="_blank">CASE STUDY</a>}
+                    link={<a href="https://limitless-bastion-55301.herokuapp.com" target="_blank">VISIT EXAMPLE SITE</a>}
                 ></WorkCard>
             </div>
         </div>

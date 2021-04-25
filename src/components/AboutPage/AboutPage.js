@@ -55,7 +55,7 @@ function AboutPage() {
     return (
         <div id="aboutContainer">
             <div ref={el => {aboutblurb=el}} className="blurbContainer">
-            <h2>ABOUT</h2>
+            <h2>- ABOUT -</h2>
             <p>Hi, I'm Tristan. I build websites using tools like React, HTML/CSS, and GSAP.
                 <br></br>I believe in using modern, minamalist designs
             to create a smooth, engaging, and accessible user experience.

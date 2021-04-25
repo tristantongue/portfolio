@@ -65,7 +65,9 @@ function ContactPage(props) {
     return (
         <div id="contactContainer">
             <div ref={el => {contactchunk=el}} className="contactHeader">
-                <h2>CONTACT</h2>
+                <h2>- CONTACT -</h2>
+                <p><em>Feel free to send me an email at <b>tristantongue@gmail.com</b></em></p>
+                <p>Or just drop me a line below.</p>
                 <form id="contactForm" onSubmit={sendEmail}>
                     <input
                         type="text"

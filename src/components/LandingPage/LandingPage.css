@@ -37,12 +37,12 @@
     /* animation: graphic-grow 1s ease-in forwards 2.7s; */
 }
 
-/* 
+
 @media screen and (max-width: 600px) {
     .graphicImage {
-        transform: scale(.5);
+        left: 40%;
     }
-} */
+} 
 
 
 
