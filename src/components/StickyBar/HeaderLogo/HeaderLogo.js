@@ -15,12 +15,11 @@ function HeaderLogo(props) {
                 stroke: '#EE4266',
                 scrollTrigger: {
                 trigger : ".workMarker",
-                //scroller: ".mother",
+                toggleActions: "restart none reverse reset",
                 start: "top center",
                 end: "top top",
-                // scrub: 2,
+                scrub: 2,
                 duration: 2,
-                // delay: 1,
             }
             })
     }, []);
@@ -32,12 +31,11 @@ function HeaderLogo(props) {
                 stroke: '#EE4266',
                 scrollTrigger: {
                 trigger : ".workMarker",
-                //scroller: ".mother",
+                toggleActions: "restart none reverse reset",
                 start: "top center",
                 end: "top top",
-                // scrub: 2,
+                scrub: 2,
                 duration: 2,
-                // delay: 1,
             }
             })
     }, []);
