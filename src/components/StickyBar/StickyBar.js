@@ -8,7 +8,7 @@ import Menu from './Menu/Menu.js';
 function StickyBar(props) {
     return (
         <div id="sticky">
-            <HeaderLogo gotclicked = {props.logoclick}></HeaderLogo>
+            <HeaderLogo gotclicked = {props.logoclick} workmarker={props.workmarker}></HeaderLogo>
             <Menu gotclicked = {props.menuclick}></Menu>
         </div>
     )

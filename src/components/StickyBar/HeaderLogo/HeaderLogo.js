@@ -15,14 +15,14 @@ function HeaderLogo(props) {
                 stroke: '#EE4266',
                 scrollTrigger: {
                 trigger : ".workMarker",
-                toggleActions: "restart none reverse reset",
+                toggleActions: "restart none reverse pause",
                 start: "top center",
                 end: "top top",
                 scrub: 2,
                 duration: 2,
             }
             })
-    }, []);
+    }, [props.workmarker]);
     useEffect(() => {
         gsap.fromTo(secondicon,
             {
@@ -31,14 +31,14 @@ function HeaderLogo(props) {
                 stroke: '#EE4266',
                 scrollTrigger: {
                 trigger : ".workMarker",
-                toggleActions: "restart none reverse reset",
+                toggleActions: "restart none reverse pause",
                 start: "top center",
                 end: "top top",
                 scrub: 2,
                 duration: 2,
             }
             })
-    }, []);
+    }, [props.workmarker]);
 
 
     return (

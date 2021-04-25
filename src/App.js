@@ -80,7 +80,7 @@ function App() {
 
   return (
     <div className="mother">
-      <StickyBar menuclick={changeMenu} logoclick={turnOffMenu}></StickyBar>
+      <StickyBar menuclick={changeMenu} logoclick={turnOffMenu} workmarker={workref}></StickyBar>
       {menu && 
        <MenuPage homeclick={goingHome} aboutclick={goingAbout} workclick={goingWork} contactclick={goingContact}></MenuPage> }
       {!menu && 
