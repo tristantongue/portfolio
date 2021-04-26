@@ -1,9 +1,10 @@
 #workContainer {
     display: grid;
+    height: auto;
     grid-template-columns: 15% 70% 15%;
     grid-template-rows: 10% 80% 10%;
-    overflow: hidden;
-    min-height: 100vh;
+    overflow-x: hidden;
+    min-height: 150vh;
 }
 
 .workHeader {

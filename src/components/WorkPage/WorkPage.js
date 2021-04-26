@@ -36,14 +36,24 @@ function WorkPage() {
                 <h2>- PROJECTS -</h2>
                 <WorkCard
                     title={"My Portfolio Website"}
-                    caption={"A fully responsive single page React application that harnesses GSAP and React Hooks for event and scroll triggered animations. Includes custom animated SVG. Deployed on AWS."}
-                    link={<a href="https://github.com/tristantongue/portfolio/tree/master/src" target="_blank">VIEW REPOSITORY</a>}>
+                    caption={"A fully responsive single page React application that harnesses GSAP and React Hooks for event and scroll triggered animations. Includes custom animated SVG designed with Figma. Deployed on AWS."}
+                    link={<a href="https://github.com/tristantongue/portfolio/tree/master/src" target="_blank" rel="noreferrer">VIEW REPOSITORY</a>}>
                     
                 </WorkCard>
                 <WorkCard
                     title={"Kickstart Coding"}
                     caption={"An intensive full-stack web development bootcamp covering HTML/CSS fundamentals, Django, PostgreSQL, and React. Developed and deployed multiple web apps as unit projects. "}
-                    link={<a href="https://limitless-bastion-55301.herokuapp.com" target="_blank">VISIT EXAMPLE SITE</a>}
+                    link={<a href="https://kickstartcoding.com/courses/" target="_blank" rel="noreferrer">VIEW CURRICULUM</a>}
+                ></WorkCard>
+                <WorkCard
+                    title={"Dancify"}
+                    caption={"A single page React application that uses Spotify user authentication to read through the user's Spotify library and make a POST request to create a playlist of their highest 'danceability' rated songs."}
+                    link={<a href="https://limitless-bastion-55301.herokuapp.com" target="_blank" rel="noreferrer">VISIT WEBSITE</a>}
+                ></WorkCard>
+                <WorkCard
+                    title={"GitChecker"}
+                    caption={"A Django powered dashboarding application with user registration/authentification. Allows users to visualize data from the GitHub API and save their own dashboards."}
+                    link={<a href="https://fathomless-cliffs-67196.herokuapp.com" target="_blank" rel="noreferrer">VISIT WEBSITE</a>}
                 ></WorkCard>
             </div>
         </div>
