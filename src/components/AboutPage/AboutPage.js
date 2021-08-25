@@ -60,7 +60,7 @@ function AboutPage() {
                 <br></br>I believe in using modern, minamalist designs
             to create a smooth, engaging, and accessible user experience.
                 <br></br>My web development journey started in 2019 when I first used WordPress at a non-profit I was working at.
-                <br></br>Since then, I've worked with languages such as Python, SQL, and JavaScript. 
+                <br></br>Since then, I've worked with languages such as Python, Ruby, SQL, and JavaScript (Angular and React). 
                 <br></br>I'm always trying to become a better developer through discovering ways to optimize my code and improve my eye for design.
                 <br></br></p>
     
